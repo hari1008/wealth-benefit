@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Contracts;
+
+interface AdminContract {
+
+    public function postForgotPassword($request);
+    public function postChangePassword($request);
+    public function postImportExcel($request);
+    public function getActivationCodeList($id);
+    public function getActivationCodeData($id);
+    public function postDeleteActivationCode($request);
+    public function getUserListing();
+    public function getUserData($request);
+    public function getProviderListing();
+    public function getProviderData();
+    public function getInsuranceListing();
+    public function getInsuranceData();
+    public function getWorkListing();
+    public function getWorkData();
+    public function getMerchantListing();
+    public function getMerchantData();
+    public function getEcosystemListing();
+    public function getEcosystemData();
+    public function getRewardListing();
+    public function getRewardByMerchant($request);
+    public function getRewardData();
+    public function getUserDetail($id);
+    public function postDeleteUser($request);
+    public function postApproveExpert($request);
+    public function postDisapproveExpert($request);
+    public function postSaveInsuranceData($request);
+    public function postSaveProviderData($request);
+    public function postSaveWorkData($request);
+    public function postSaveMerchantData($request);
+    public function getHealthProvider($attributeId);
+    public function getHealthInsurance($attributeId);
+    public function getWork($workId);
+    public function getMerchant($merchantId);
+    public function getEcosystem($ecosystemId);
+    public function getReward($rewardId);
+    public function getGym($gymId);
+    public function postDeleteProviderdata($request);
+    public function postDeleteInsurancedata($request);
+    public function postDeleteWorkdata($request);
+    public function postDeleteEcosystemdata($request);
+    public function postChangeEcosystemStatus($request);
+    public function postDeleteRewardData($request);
+    public function postRestoreRewardData($request);
+    public function getReportedIssue();
+    public function getReportedIssueData();
+    public function getRatingListing();
+    public function getRatingListingData($request);
+    public function getHelpListing();
+    public function getHelpListingData($request);
+    public function getUserProviderListing();
+    public function getUserProviderListingData($request);
+    public function getUserInsuranceListing();
+    public function getUserInsuranceListingData($request);
+    public function getCSVDownload($type,$request);
+    public function getTermsCondition();
+    public function getAddTermsCondition();
+    public function postAddTermsCondition($request);
+    public function getGymListing();
+    public function getGymData($request);
+    public function postDeleteGymdata($request);
+    public function postSaveGymData($request);
+    public function postSaveRewardData($request);
+    public function postSaveEcosystemData($request);
+    public function postDeleteMerchantData($request);
+    public function getHealthCategoryListing();
+    public function getHealthCategoryData($request);
+    public function postDeleteHealthCategoryData($request);
+    public function getHealthCategory($healthCategoryId);
+    public function postSaveHealthCategoryData($request); 
+    public function getDownloadQualificationImage($request);
+}

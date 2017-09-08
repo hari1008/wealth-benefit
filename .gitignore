@@ -1,0 +1,11 @@
+.DS_Store
+.env
+Thumbs.db
+storage/logs
+storage/app/uploads/
+storage/debugbar/
+public/.DS_Store
+nbproject
+bootstrap/cache
+public/cache
+/vendor/

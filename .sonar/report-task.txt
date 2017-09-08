@@ -1,0 +1,5 @@
+projectKey=Benefit-Wellness
+serverUrl=http://54.152.88.149:9000/sonar
+dashboardUrl=http://54.152.88.149:9000/sonar/dashboard/index/Benefit-Wellness
+ceTaskId=AVxdTofIROOMfOPYoy9-
+ceTaskUrl=http://54.152.88.149:9000/sonar/api/ce/task?id=AVxdTofIROOMfOPYoy9-
